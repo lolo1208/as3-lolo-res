@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--嵌入字体配置文件-->
+<config>
+	<item fontName="Microsoft YaHei" url="assets/{resVersion}/swf/font/YaHei.swf" definition="font.YaHei" />
+	<item fontName="LiSu" url="assets/{resVersion}/swf/font/LiShu.swf" definition="font.LiShu" />
+	<item fontName="SimHei" url="assets/{resVersion}/swf/font/HeiTi.swf" definition="font.HeiTi" />
+</config>

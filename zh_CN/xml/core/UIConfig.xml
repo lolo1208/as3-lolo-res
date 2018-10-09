@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--用户界面配置文件-->
+<config>
+	<!--音频文件路径-->
+	<sound value="assets/{resVersion}/snd/{0}.mp3" />
+	
+	<!--地图数据-->
+	<mapData value="assets/{resVersion}/map/{0}/info.ast" />
+	<!--地图缩略图-->
+	<mapThumbnail value="assets/{resVersion}/map/{0}/thumbnail.jpg" />
+	<!--地图图块-->
+	<mapChunk value="assets/{resVersion}/map/{0}/chunks/{1}_{2}.ast" />
+	<!--地图遮挡物-->
+	<mapCover value="assets/{resVersion}/map/{0}/covers/{1}.png" />
+	<!--点击地图时播放的动画-->
+	<mapMouseDownAni value="ui.mouse.mapBackground.Down" />
+	
+	<!--角色动画-->
+	<avatarAnimation value="assets/{resVersion}/ani/avatar/{0}_{1}.ast" />
+	<!--坐骑动画-->
+	<horseAnimation value="assets/{resVersion}/ani/horse/{0}/{1}.ast" />
+	<!--附属物动画-->
+	<adjunctAnimation value="assets/{resVersion}/ani/adjunct/{0}/{1}.ast" />
+	
+	<!--鼠标指针动画的帧频配置（默认为12）-->
+	<cursorAniFps value="ui.mouse.test.normal:60,ui.mouse.test.press:2" />
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <button id="btn1" properties='{"x":89, "y":117, "label":"Button", "styleName":"button1"}' style='{"labelStyle":{"upStyle":{"color":"0xFF0000"}}}'/>
+  <imageButton id="btn2" properties='{"x":91, "y":163, "styleName":"imageButton1"}'/>
+  <baseButton id="btn3" properties='{"x":88, "y":221, "styleName":"baseButton1"}'/>
+</config>

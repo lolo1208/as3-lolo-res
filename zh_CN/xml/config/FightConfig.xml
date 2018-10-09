@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<effects>
+		<item id="guangQuan_hong" sn="effect.guangQuan_hong" fps="12" />
+		<item id="leiDian_pre" sn="effect.leiDian_pre" fps="16" />
+		<item id="leiDian" sn="effect.leiDian" fps="12" />
+	</effects>
+</config>

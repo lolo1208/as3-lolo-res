@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config stageLayout='{}'>
+  <bitmapSprite properties='{"x":-2, "y":-2, "width":300, "height":255, "sourceName":"test.testScene.background"}'/>
+  <label properties='{"x":50, "y":20, "width":200, "height":20, "autoSize":"none", "text":"注册和登录"}' style='{"size":"14", "align":"center", "color":"0xFFFFCC", "stroke":"0x333333", "bold":true}'/>
+  <label properties='{"x":25, "y":60, "text":"帐号："}' style='{"size":"14", "color":"0xFFFFFF", "stroke":"0x333333"}'/>
+  <label properties='{"x":25, "y":95, "text":"密码："}' style='{"size":"14", "color":"0xFFFFFF", "stroke":"0x333333"}'/>
+  <label properties='{"x":25, "y":131, "text":"后端："}' style='{"size":"14", "color":"0xFFFFFF", "stroke":"0x333333"}'/>
+  <inputText id="usernameIT" properties='{"x":70, "y":60, "width":200, "height":20}' props='{"border":true}' style='{"size":"14"}'/>
+  <inputText id="passwordIT" properties='{"x":70, "y":95, "width":200, "height":20}' props='{"border":true, "displayAsPassword":true}' style='{"size":"14"}'/>
+  <button id="connBtn" properties='{"x":250, "y":130, "width":20, "label":">", "styleName":"button1"}'/>
+  <itemGroup id="typeGroup"/>
+  <radioButton group="typeGroup" properties='{"x":70, "y":165, "label":"SOCKET", "styleName":"radioButton1"}' props='{"data":"socket"}' style='{"labelStyle":{"stroke":"0x333333"}}'/>
+  <radioButton group="typeGroup" properties='{"x":145, "y":165, "label":"HTTP", "styleName":"radioButton1"}' props='{"data":"http"}' style='{"labelStyle":{"stroke":"0x333333"}}'/>
+  <button id="registerBtn" properties='{"x":140, "y":200, "width":55, "height":25, "label":"注册", "styleName":"button1"}'/>
+  <button id="loginBtn" properties='{"x":215, "y":200, "width":55, "height":25, "label":"登录", "styleName":"button1"}' style='{"labelStyle":{"bold":true}}'/>
+  <container id="serviceCMB" type="comboBox" properties='{"x":70, "y":130}' props='{"listBGPaddingHeight":1}'>
+    <baseButton id="arrowBtn" properties='{"width":175, "styleName":"baseButton1"}' style='{"skinName":"test.comboBox.arrowBtn"}'/>
+    <inputText id="inputText" properties='{"x":3, "y":3, "width":145, "height":17}' editorProps='{"tipsText":"ComboBox"}'/>
+    <label id="labelText" properties='{"x":3, "y":3, "width":145, "height":17}' editorProps='{"tipsText":"ComboBox"}'/>
+    <bitmapSprite id="listBG" properties='{"y":22, "width":175, "height":100, "sourceName":"test.skin.comboBox.listBG"}'/>
+    <scrollList id="list" properties='{"x":1, "y":23, "columnCount":1, "rowCount":5}' editorProps='{"item":"comboBoxItemRenderer", "scrollBar":"listVSB"}'/>
+    <scrollBar id="listVSB" target="list" properties='{"x":159, "y":23, "viewableArea":{"x":1,"y":23,"width":175,"height":98}, "size":98, "styleName":"vScrollBar1"}'/>
+  </container>
+  <comboBoxItemRenderer>
+    <baseButton id="btn" properties='{"width":173, "height":20, "styleName":"baseButton1"}' style='{"skinName":"test.comboBox.listItem"}'/>
+    <label id="labelText" properties='{"x":1, "y":2, "width":171, "height":18, "mouseEnabled":false}' props='{"autoTooltip":false, "mouseEnabled":false}' editorProps='{"tipsText":"127.0.0.1:1208"}'/>
+  </comboBoxItemRenderer>
+</config>

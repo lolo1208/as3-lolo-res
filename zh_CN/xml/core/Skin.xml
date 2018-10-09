@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	皮肤配置文件
+	该文件由编辑器自动生成
+-->
+<config>
+	<button1 up="skin.button.1.up" over="skin.button.1.over" down="skin.button.1.down" disabled="skin.button.1.disabled" selectedUp="skin.button.1.selectedUp" selectedOver="skin.button.1.selectedOver" selectedDown="skin.button.1.selectedDown" selectedDisabled="skin.button.1.selectedDisabled"/>
+	<button2 up="skin.button.2.up" over="skin.button.2.over" down="skin.button.2.down"/>
+	<button3 up="skin.button.3.up" over="skin.button.3.over" down="skin.button.3.down"/>
+	<button4 up="skin.button.4.up" over="skin.button.4.over" down="skin.button.4.down"/>
+	<checkBox1 up="skin.checkBox.1.up" over="skin.checkBox.1.over" down="skin.checkBox.1.down" disabled="skin.checkBox.1.disabled" selectedUp="skin.checkBox.1.selectedUp" selectedOver="skin.checkBox.1.selectedOver" selectedDown="skin.checkBox.1.selectedDown" selectedDisabled="skin.checkBox.1.selectedDisabled"/>
+	<closeBtn up="skin.button.closeBtn.up" over="skin.button.closeBtn.over" down="skin.button.closeBtn.down" disabled="skin.button.closeBtn.disabled"/>
+	<hsb1.downBtn up="skin.scrollBar.h1.downBtn.up" over="skin.scrollBar.h1.downBtn.over" down="skin.scrollBar.h1.downBtn.down" disabled="skin.scrollBar.h1.downBtn.disabled"/>
+	<hsb1.thumb up="skin.scrollBar.h1.thumb.up" over="skin.scrollBar.h1.thumb.over" down="skin.scrollBar.h1.thumb.down" disabled="skin.scrollBar.h1.thumb.disabled"/>
+	<hsb1.track up="skin.scrollBar.h1.track.up" over="skin.scrollBar.h1.track.over"/>
+	<hsb1.upBtn up="skin.scrollBar.h1.upBtn.up" over="skin.scrollBar.h1.upBtn.over" down="skin.scrollBar.h1.upBtn.down" disabled="skin.scrollBar.h1.upBtn.disabled"/>
+	<radioButton1 up="skin.radioButton.1.up" over="skin.radioButton.1.over" down="skin.radioButton.1.down" disabled="skin.radioButton.1.disabled" selectedUp="skin.radioButton.1.selectedUp" selectedOver="skin.radioButton.1.selectedOver" selectedDown="skin.radioButton.1.selectedDown" selectedDisabled="skin.radioButton.1.selectedDisabled"/>
+	<test.comboBox.arrowBtn up="test.skin.comboBox.arrowBtn.up" over="test.skin.comboBox.arrowBtn.over" down="test.skin.comboBox.arrowBtn.down" disabled="test.skin.comboBox.arrowBtn.disabled"/>
+	<test.comboBox.listItem up="test.skin.comboBox.listItem.up" over="test.skin.comboBox.listItem.over" down="test.skin.comboBox.listItem.down" selectedUp="test.skin.comboBox.listItem.selectedUp"/>
+	<vsb1.downBtn up="skin.scrollBar.v1.downBtn.up" over="skin.scrollBar.v1.downBtn.over" down="skin.scrollBar.v1.downBtn.down" disabled="skin.scrollBar.v1.downBtn.disabled"/>
+	<vsb1.thumb up="skin.scrollBar.v1.thumb.up" over="skin.scrollBar.v1.thumb.over" down="skin.scrollBar.v1.thumb.down" disabled="skin.scrollBar.v1.thumb.disabled"/>
+	<vsb1.track up="skin.scrollBar.v1.track.up" over="skin.scrollBar.v1.track.over"/>
+	<vsb1.upBtn up="skin.scrollBar.v1.upBtn.up" over="skin.scrollBar.v1.upBtn.over" down="skin.scrollBar.v1.upBtn.down" disabled="skin.scrollBar.v1.upBtn.disabled"/>
+</config>

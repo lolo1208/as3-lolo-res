@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--组件样式配置文件-->
+<config>
+	<!--文本的默认样式-->
+	<style name="textField" style='{
+		"font"		: "宋体",
+		"size"		: 12,
+		"color"		: "0x333333",
+		"align"		: "left",
+		"bold"		: false,
+		"underline"	: false,
+		"leading"	: 3,
+		"stroke"	: "none"
+	}' />
+	
+	<!--显示文本的默认样式-->
+	<style name="label" style='{
+		"moreText"	: "..."
+	}' />
+	<style name="label222" style='{
+		"color"	: "0xFF3333"
+	}' />
+	<style name="label333" style='{
+		"color"	: "0xFFFFFF"
+	}' />
+	
+	
+	<!--输入文本的默认样式-->
+	<style name="inputText" style='{
+	}' />
+	
+	<!--提示文本的默认样式-->
+	<style name="alertText" style='{
+		"size"					: 14,
+		"color"					: "0x990000",
+		"stroke"				: "0xFFFFFF",
+		"colorList"				: [ "0x990000", "0x009900" ],
+		"showDelay"				: 0,
+		"hideDelay"				: 2,
+		"showEffectDuration"	: 0.5,
+		"hideEffectDuration"	: 0.5
+	}' />
+	
+	<!--富文本的默认样式-->
+	<style name="richText" style='{
+		"fontFamily"	: "宋体,Arial",
+		"size"			: 12,
+		"color"			: "0x333333",
+		"lineHeight"	: "150%",
+		"linkNormalFormat"	: {"color":"0x333333"},
+		"linkHoverFormat"	: {"color":"0x666666", "textDecoration":"underline"},
+		"linkActiveFormat"	: {"color":"0xFF0000", "textDecoration":"underline"}
+	}' />
+	
+	<!--数字文本的默认样式-->
+	<style name="numberText" style='{
+		"upColor"		: "0x24B052",
+		"downColor"		: "0xB13F23",
+		"delay"			: 0.08
+	}' />
+	
+	
+	<!--基础按钮1-->
+	<style name="baseButton1" style='{
+		"skinName" 				: "button1",
+		"hitAreaPaddingTop"		: 1,
+		"hitAreaPaddingBottom"	: 1,
+		"hitAreaPaddingLeft"	: 1,
+		"hitAreaPaddingRight"	: 1
+	}' />
+	
+	
+	<!--文本按钮1-->
+	<style name="button1" style='{
+		"skinName"				: "button1",
+		"labelPaddingTop"		: 2,
+		"labelPaddingBottom"	: 2,
+		"labelPaddingLeft"		: 2,
+		"labelPaddingRight"		: 2,
+		"labelStyle"	: {	
+			"upStyle"		: { "color":"0x333333" },
+			"overStyle"		: { "color":"0x666666" },
+			"downStyle"		: { "color":"0x000000" },
+			"disabledStyle"	: { "color":"0x999999" }
+		}
+	}' />
+	
+	
+	<!--图片按钮1-->
+	<style name="imageButton1" style='{
+		"skinName"				: "button1",
+		"imagePaddingTop"		: 5,
+		"imagePaddingBottom"	: 5,
+		"imagePaddingLeft"		: 5,
+		"imagePaddingRight"		: 5,
+		"imagePrefix"			: "test.text.imageBtn"
+	}' />
+	
+	
+	<!--多选框1-->
+	<style name="checkBox1" style='{
+		"skinName"			: "checkBox1",
+		"labelPaddingTop"	: -1,
+		"labelPaddingLeft"	: 16,
+		"labelStyle"	: {
+			"upStyle"		: { "color":"0xFFCC66" },
+			"overStyle"		: { "color":"0xFFFFFF" },
+			"downStyle"		: { "color":"0xCCCCCC" },
+			"disabledStyle"	: { "color":"0x666666" },
+			"selectedStyle"	: { "color":"0xCCCCCC" }
+		}
+	}' />
+	
+	<!--单选框1-->
+	<style name="radioButton1" style='{
+		"skinName"	: "radioButton1",
+		"labelPaddingTop"	: -1,
+		"labelPaddingLeft"	: 16,
+		"labelStyle"	: {
+			"upStyle"		: { "color":"0xFFCC66" },
+			"overStyle"		: { "color":"0xFFFFFF" },
+			"downStyle"		: { "color":"0xCCCCCC" },
+			"disabledStyle"	: { "color":"0x666666" },
+			"selectedStyle"	: { "color":"0xCCCCCC" }
+		}
+	}' />
+	
+	
+	
+	<!--工具提示的默认样式-->
+	<style name="toolTip" style='{
+		"background"	: "skin.tooltip.default.background",
+		"labelMaxWidth"	: 200,
+		
+		"showDelay"				: 0.4,
+		"hideDelay"				: 3.5,
+		"showEffectDuration"	: 0.3,
+		"hideEffectDuration"	: 0.2,
+		
+		"paddingMouseX"			: -1,
+		"paddingMouseY"			: 22,
+		
+		"labelPaddingTop"		: 4,
+		"labelPaddingBottom"	: 4,
+		"labelPaddingLeft"		: 5,
+		"labelPaddingRight"		: 4,
+		"labelStyle"			: { "color":"0x333333", "leading":8 }
+	}' />
+	
+	
+	
+	<!--弹出提示框默认样式-->
+	<style name="alert" style='{
+		"background": "skin.alert.default.background",
+		"modalColor": "0x000000",
+		"modalAlpha": 0.1,
+		
+		"minWidth"	: 160,
+		"minHeight"	: 100,
+		"maxWidth"	: 320,
+		"maxHeight"	: 180,
+		
+		"labelProp"			: { "color":"0x333333", "multiline":true, "leading":7, "size":14 },
+		"labelPaddingLeft"	: 10,
+		"labelPaddingRight"	: 15,
+		"labelPaddingTop"	: 20,
+		"labelPaddingBottom": 10,
+		
+		"buttonProp"			: { "autoSize"	: true,
+									"style"		: { "labelPaddingTop":5, "labelPaddingBottom":5, "labelPaddingLeft":10, "labelPaddingRight":10 },
+									"labelProps": { "size":14 }
+								  },
+		"buttonStyleName"		: "button",
+		"defaultButtonStyleName": "button1",
+		"buttonGap"				: 5,
+		"buttonPaddingBottom"	: 15
+	}' />
+	
+	
+	
+	
+	<!--垂直滚动条1-->
+	<style name="vScrollBar1" style='{
+		"upBtnSkin"		: "vsb1.upBtn",
+		"downBtnSkin"	: "vsb1.downBtn",
+		"trackSkin"		: "vsb1.track",
+		"thumbSkin"		: "vsb1.thumb",
+		
+		"autoThumbSize"	: true,
+		"thumbMinSize"	: 20
+	}' />
+	
+	<!--水平滚动条1-->
+	<style name="hScrollBar1" style='{
+		"upBtnSkin"		: "hsb1.upBtn",
+		"downBtnSkin"	: "hsb1.downBtn",
+		"trackSkin"		: "hsb1.track",
+		"thumbSkin"		: "hsb1.thumb",
+		
+		"autoThumbSize"	: true,
+		"thumbMinSize"	: 20
+	}' />
+</config>

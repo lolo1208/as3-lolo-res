@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	资源配置文件
+	item
+		@url 资源地址
+		@type 资源类型，见Constants.RES_TYPE_xxx系列常量
+		@nameID 资源名称在语言包中的ID
+-->
+<config>
+	<language url="assets/{resVersion}/xml/core/Language.xml" type="xml" /><!--语言包-->
+	<loadingMovie url="assets/{resVersion}/swf/core/Loading.swf" type="swf" /><!--Loading动画-->
+	
+	<style url="assets/{resVersion}/xml/core/Style.xml" type="xml" nameID="020101" /><!--样式配置文件-->
+	<uiConfig url="assets/{resVersion}/xml/core/UIConfig.xml" type="xml" nameID="020102" /><!--用户界面配置文件-->
+	<skin url="assets/{resVersion}/xml/core/Skin.xml" type="xml" nameID="020107" /><!--皮肤配置文件-->
+	<animationConfig url="assets/{resVersion}/xml/core/AnimationConfig.xml" type="xml" nameID="020104" /><!--自定义动画配置文件-->
+	<movieClipConfig url="assets/{resVersion}/xml/core/MovieClipConfig.xml" type="xml" nameID="020105" /><!--动画配置文件-->
+	<bitmapSpriteConfig url="assets/{resVersion}/xml/core/BitmapSpriteConfig.xml" type="xml" nameID="020106" /><!--位图显示对象配置文件-->
+	<embedFontConfig url="assets/{resVersion}/xml/core/EmbedFontConfig.xml" type="xml" nameID="020108" /><!--嵌入文本配置文件-->
+	
+	<game url="Game.swf" type="swf" nameID="020112" /><!--游戏核心-->
+	<mainUIConfig url="assets/{resVersion}/xml/uiConfig/MainUI.xml" type="xml" nameID="020113" /><!--核心UI配置-->
+	<welcome url="assets/{resVersion}/swf/core/Welcome.swf" type="swf" nameID="020115" /><!--欢迎动画-->
+	
+	<!--登录场景-->
+	<loginSceneConfig url="assets/{resVersion}/xml/uiConfig/LoginScene.xml" type="xml" nameID="020203" />
+	<loginSceneModule url="game/module/loginScene/view/LoginScene.swf" type="class" nameID="020204" />
+	
+	<!--测试场景-->
+	<testSceneConfig url="assets/{resVersion}/xml/uiConfig/TestScene.xml" type="xml" nameID="020201" />
+	<testSceneModule url="game/module/testScene/view/TestScene.swf" type="class" nameID="020202" />
+	
+	<!--RPG场景-->
+	<rpgSceneConfig url="assets/{resVersion}/xml/uiConfig/RpgScene.xml" type="xml" nameID="020201" />
+	<rpgSceneModule url="game/module/rpgScene/view/RpgScene.swf" type="class" nameID="020202" />
+	<fightConfig url="assets/{resVersion}/xml/config/FightConfig.xml" type="xml" nameID="020201" />
+	
+	<!--新手引导模块-->
+	<guideModule url="game/module/guide/view/Guide.swf" type="class" nameID="020401" />
+	
+</config>
